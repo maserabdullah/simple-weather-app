@@ -32,7 +32,7 @@ app.get("/help", (req, res) => {
   res.render("help", {
     title: "Help",
     name: "Aslam",
-    message: "This help page containers answer to many of your questions",
+    message: "This help page containers FAQs",
   });
 });
 
