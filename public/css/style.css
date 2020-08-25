@@ -71,3 +71,6 @@ h1 {
 .error {
   color: darkred;
 }
+.para-help {
+  line-height: 25px;
+}
