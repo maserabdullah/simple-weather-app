@@ -26,14 +26,14 @@ app.use(express.static(pathToPublic));
 app.get("", (req, res) => {
   res.render("index", {
     title: "Weather app",
-    name: "Aslam",
+    name: "MA",
   });
 });
 
 app.get("/help", (req, res) => {
   res.render("help", {
     title: "Help",
-    name: "Aslam",
+    name: "MA",
     message: "This help page containers FAQs",
   });
 });
@@ -41,7 +41,7 @@ app.get("/help", (req, res) => {
 app.get("/about", (req, res) => {
   res.render("about", {
     title: "About us",
-    name: "Aslam",
+    name: "MA",
   });
 });
 
@@ -95,14 +95,14 @@ app.get("/help/*", (req, res) => {
   res.render("404", {
     title: "Oops!!",
     errorMessage: "Help article not found",
-    name: "Aslam",
+    name: "MA",
   });
 });
 app.get("*", (req, res) => {
   res.render("404", {
     title: "Oops!!",
     errorMessage: " Page not found!",
-    name: "Aslam",
+    name: "MA",
   });
 });
 
