@@ -1,5 +1,3 @@
-console.log("This is client side JavaScript");
-
 let frmLocation = document.querySelector(".frm-location");
 let txtLocation = document.querySelector(".txt-location");
 let paraOne = document.querySelector(".para-one");
